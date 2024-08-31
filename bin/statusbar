@@ -1,0 +1,8 @@
+while true
+do
+	cpu=$(top -bn1 | grep load | awk '{printf "%.2f\n", $(NF-2)}')
+	memory=$(free -m | awk 'NR==2{printf "%s/%sMB (%.2f%%)\n", $3,$2,$3*100/$2 }')
+	date=$(date +"%a %d/%m/%Y %H:%M")
+	echo "CPU: $cpu% | MEM: $memory | $date"
+	sleep 10
+done
