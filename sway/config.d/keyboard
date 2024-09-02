@@ -1,4 +1,0 @@
-input type:keyboard {
-	xkb_layout us,ge
-	xkb_options grp:alt_shift_toggle
-}

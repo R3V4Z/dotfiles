@@ -1,3 +1,0 @@
-bindsym XF86AudioMute exec amixer -D pipewire set Master 1+ toggle
-bindsym XF86AudioRaiseVolume exec amixer -q sset Master 5%+
-bindsym XF86AudioLowerVolume exec amixer -q sset Master 5%-
