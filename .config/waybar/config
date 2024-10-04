@@ -18,7 +18,9 @@
     "wireplumber": {
         "format": "vol {volume}%",
         "format-muted": "muted",
-        "on-click": "helvum"
+        "on-click": "helvum",
+        "max-volume": 150,
+        "scroll-step": 0.2
     },
 
     "clock": {
